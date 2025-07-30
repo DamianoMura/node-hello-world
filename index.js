@@ -6,7 +6,9 @@ if(process.argv.length>2){
   //dichiaro una stringa dove inserisco tutti i parametri ... 
   let data = process.argv[2];
   // li ciclo e concateno formando un unica frase
+  //parto da 3 perchè ho già inserito il primo che è 'argv[2]'
   for (let x = 3 ; x < process.argv.length ; x++ ){
+    // concateno finchè non sono finiti gli argomenti
     data+=" "+process.argv[x];
   }
   //stampo con console.log
