@@ -26,3 +26,5 @@ lascio tutto com'è perchè usero l'entry point di default che è index.js
 creo index.js, volendo sempre da terminale usando "touch index.js [invio]"
 
 ### 2° push
+
+mi creo degli script alias in package.json per i comandi --watch e lancio singolo
