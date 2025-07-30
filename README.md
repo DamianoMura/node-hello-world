@@ -28,3 +28,7 @@ creo index.js, volendo sempre da terminale usando "touch index.js [invio]"
 ### 2° push
 
 mi creo degli script alias in package.json per i comandi --watch e lancio singolo
+
+### 3° push
+
+verifico che il tutto funzioni usando i comandi alias utilizzando un console.log all'interno del file index.js
