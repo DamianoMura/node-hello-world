@@ -46,3 +46,5 @@ quindi possiamo dire che se process.argv.length>2 , sicuramente sono stati passa
 ### 7° push
 
 definisco quindi la funzione per concatenare i parametri e infine restituirli con un console.log
+
+# tutto funziona come dovrebbe
