@@ -13,7 +13,7 @@ Bonus
 
 Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”. Forse potrà servirvi qualcosa vista ieri! 😉
 
-## svolgimento:
+## punti salienti:
 
 ### 1° push
 
@@ -33,4 +33,16 @@ mi creo degli script alias in package.json per i comandi --watch e lancio singol
 
 verifico che il tutto funzioni usando i comandi alias utilizzando un console.log all'interno del file index.js
 
+### 4° push
+
 per utilizzare il console log possiamo utilizzare un comando da terminale alias "npm run start" come definito dagli scripts in package.json per avviarlo una sola volta, oppure "npm run watch" per avere il live refresh
+
+### 6° push
+
+ho deciso di prendere un approcio che mi permetta di avere un'unica stringa anche avendo più parametri per il semplice motivo che dobbiamo restituire qualcos'altro al posto di hello world se sono presenti parametri, quindi, sapendo che process.argv è un array e che i primi 2 sono path di "sistema",
+ne deduco che dalla posizione 2 in poi ci sono i parametri che gli abbiamo passato.
+quindi possiamo dire che se process.argv.length>2 , sicuramente sono stati passati parametri e io li voglio concatenare in un unica stringa che poi restituirò
+
+### 7° push
+
+definisco quindi la funzione per concatenare i parametri e infine restituirli con un console.log
