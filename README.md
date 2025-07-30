@@ -32,3 +32,5 @@ mi creo degli script alias in package.json per i comandi --watch e lancio singol
 ### 3° push
 
 verifico che il tutto funzioni usando i comandi alias utilizzando un console.log all'interno del file index.js
+
+per utilizzare il console log possiamo utilizzare un comando da terminale alias "npm run start" come definito dagli scripts in package.json per avviarlo una sola volta, oppure "npm run watch" per avere il live refresh
